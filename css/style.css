@@ -10,7 +10,7 @@ body{
   width: 45px;
   background: #880000 ;
   border-radius:50%;
-  margin-left: 160px;
+  margin-left: 180px;
   margin-top: 5px;
 }
 
@@ -19,22 +19,23 @@ body{
   width: 100%;
   background-color:white;
   box-shadow: 0 0 3px 0 black;
+
 }
 
 #head{
-  height: 30px;
+  height: 60px;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
+  box-shadow: 0 0 3px 0 black;
   font-size: 18px;
+  display: flex;
 }
 
 
 #github{
   text-decoration: none;
   color: #756C83;
-  margin-top: -32px;
   margin-left: 5px;
+  margin-top: 20px;
 
 }
 #github:hover{
@@ -44,8 +45,8 @@ body{
 
 #home{
   color: #F38181 ;
-  margin-top: -32px;
-  margin-left: 27%;
+  margin-left: 920px;
+  margin-top: 20px;
 }
 
 /*container*/
@@ -151,13 +152,17 @@ body{
 
 /* Responsivo Celulares */
 @media(max-width: 450px){
-      /* menu nav */
+
+  body{overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+    /* menu nav */
   #menu{
-    width: 413px;
+    width:58vh;
+    margin: 0%;
     margin-left: auto;
     margin-right: auto;
-    margin: 0%;
-    
   }
   
   #menu img{
@@ -167,8 +172,15 @@ body{
   }
 
   #head{
-    width: 400px;
+  height: 100%;
+  
   }
+  
+#home{
+  color: #F38181 ;
+  margin-left: 190px;
+  margin-top: 20px;
+}
 
   
 
@@ -176,29 +188,40 @@ body{
 
   
   .container{
-    margin-left: 8px;
+    margin-left: 0;
     padding-top: 45px;
+    
   }
 
   #publicacao{
-
     display: flex;
     flex-direction:column;
-    margin-left: auto;
-    margin-right: auto;
     
   }
   .post{
-    height: 540px;
-    width: 330px;
+    height: 535px;
+    width: 350px;
     font-size: 15px;
+    
   }
 
   .cardphoto img{
-    height: 310px;
+    height: 330px;
     margin-top: 35px;
   }
 
+  /*footer*/
+
+  #endfooter{
+    width: 58vh;
+
+    
   }
 
+  #endfooter ul{
+    margin-left: 0;
+
+  }
+ 
+}
 
