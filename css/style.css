@@ -156,8 +156,7 @@ body{
   #menu{
     width: 413px;
     margin: 0;
-       margin-left: auto;
-    margin-right: auto;
+     background: red;
   }
   
   #menu img{
