@@ -154,10 +154,8 @@ body{
 
     /* menu nav */
   #menu{
-    width: 405px;
+    width: 408px;
     margin: 0;
-       margin-left: auto;
-    margin-right: auto;
   }
   
   #menu img{
