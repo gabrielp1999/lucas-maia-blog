@@ -147,3 +147,20 @@ body{
 #endfooter img{
   height: 45px;
 }
+
+
+/* Responsivo Celulares */
+@media(max-width: 450px){
+
+    /* menu nav */
+  #menu{
+    width: 58vh;
+    margin: 0;
+  }
+  
+  #menu img{
+    height: 40px;
+    width: 40px;
+    margin-left: 0;
+  }
+
