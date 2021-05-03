@@ -153,16 +153,29 @@ body{
 @media(max-width: 450px){
 
     /* menu nav */
-  #menu{
-    width: 413px;
-    margin: 0;
-     background: red;
+  .container{
+    margin: 0 auto;
   }
-  
-  #menu img{
-    height: 40px;
-    width: 40px;
-    margin-left: 0;
+
+  #publicacao{
+
+    display: flex;
+    flex-direction:column;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .post{
+    height: 535px;
+    width: 325px;
+    font-size: 15px;
+  }
+
+  .cardphoto img{
+    height: 300px;
+    margin-top: 35px;
+  }
+
   }
 
 
