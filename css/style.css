@@ -151,8 +151,7 @@ body{
 
 /* Responsivo Celulares */
 @media(max-width: 450px){
-
-     /* menu nav */
+      /* menu nav */
   #menu{
     width: 413px;
     margin-left: auto;
@@ -171,14 +170,14 @@ body{
     width: 400px;
   }
 
-  #home{
-    margin-left: 10px;
-  }
+  
 
   /* container*/
 
+  
   .container{
-    margin: 0 auto;
+    margin-left: 8px;
+    padding-top: 45px;
   }
 
   #publicacao{
@@ -190,16 +189,16 @@ body{
     
   }
   .post{
-    height: 535px;
-    width: 325px;
+    height: 540px;
+    width: 330px;
     font-size: 15px;
   }
 
   .cardphoto img{
-    height: 300px;
+    height: 310px;
     margin-top: 35px;
   }
-  
+
   }
 
 
