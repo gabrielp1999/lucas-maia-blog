@@ -156,6 +156,8 @@ body{
   #menu{
     width: 56vh;
     margin: 0;
+       margin-left: auto;
+    margin-right: auto;
   }
   
   #menu img{
